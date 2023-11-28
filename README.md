@@ -22,7 +22,7 @@ This repository contains a simple web application for generating random password
 
 ## Screenshots
 
-![Password Generator](assets/images/Screenshot 2023-11-28 at 11.48.12.png)
+![Password Generator](https://github.com/Revan369/password-generator/blob/e10c84356dd67a10f587267a7255e98c921d286c/assets/images/Screenshot%202023-11-28%20at%2011.48.12.png)
 
 ## Technologies Used
 
