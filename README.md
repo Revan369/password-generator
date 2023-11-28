@@ -22,10 +22,14 @@ This repository contains a simple web application for generating random password
 
 ## Screenshots
 
-![Password Generator](../password-generator/assets/images/Screenshot%202023-11-28%20at%2011.48.12.pngplaceholder.png)
+![Password Generator](../password-generator/assets/images/Screenshot%202023-11-28%20at%2011.48.12.png)
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
+
+## Link to deployed application
+
+https://revan369.github.io/password-generator/
