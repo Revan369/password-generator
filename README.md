@@ -22,7 +22,7 @@ This repository contains a simple web application for generating random password
 
 ## Screenshots
 
-![Password Generator](.placeholder.png)
+![Password Generator](../password-generator/assets/images/Screenshot%202023-11-28%20at%2011.48.12.pngplaceholder.png)
 
 ## Technologies Used
 
