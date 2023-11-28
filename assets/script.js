@@ -41,8 +41,41 @@ function getRandom(arr) {
 }
 
 // Function to generate password with user input
-function generatePassword() {
+function getRandom(arr) {
+  var randomIndex = Math.floor(Math.random() * arr.length);
+  return arr[randomIndex];
+}
 
+// Function to generate password with user input
+function generatePassword() {
+  var options = getPasswordOptions();
+
+  if (!options) {
+    return ""; // Return an empty string if options are not valid
+  }
+
+  var allCharacters = [];
+  var result = [];
+
+  if (options.includeSpecial) {
+    allCharacters = allCharacters.concat(specialCharacters);
+  }
+  if (options.includeNumeric) {
+    allCharacters = allCharacters.concat(numericCharacters);
+  }
+  if (options.includeLowercase) {
+    allCharacters = allCharacters.concat(lowerCasedCharacters);
+  }
+  if (options.includeUppercase) {
+    allCharacters = allCharacters.concat(upperCasedCharacters);
+  }
+
+  for (var i = 0; i < options.length; i++) {
+    var randomChar = getRandom(allCharacters);
+    result.push(randomChar);
+  }
+
+  return result.join('');
 }
 
 // Get references to the #generate element
